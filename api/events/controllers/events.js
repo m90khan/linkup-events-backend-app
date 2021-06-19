@@ -6,6 +6,7 @@ const { sanitizeEntity } = require("strapi-utils");
  * to customize this controller
  */
 
+// is owner policy
 module.exports = {
   // Create event with linked user
   async create(ctx) {
